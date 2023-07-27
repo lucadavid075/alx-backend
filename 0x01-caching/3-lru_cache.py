@@ -10,7 +10,7 @@ from base_caching import BaseCaching
 class LRUCache(BaseCaching):
     """
     A class that represents a caching system that allows
-    storing and retrieving items from a dictionary with a 
+    storing and retrieving items from a dictionary with a
     LRU removal mechanism when the limit is reached.
     """
     def __init__(self):
